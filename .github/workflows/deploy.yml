@@ -22,7 +22,7 @@ jobs:
 
     steps:
       - name: Prepare
-        run: apt update && apt upgrade -y && apt install -y scdoc pandoc
+        run: sudo apt update && sudo apt upgrade -y && sudo apt install -y scdoc pandoc
 
       - name: Checkout labwc.github.io
         uses: actions/checkout@v3
