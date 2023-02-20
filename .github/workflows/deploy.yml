@@ -8,7 +8,7 @@ on:
       - 'main'
 
   # Allow running workflow manually
-  workflow-dispatch:
+  workflow_dispatch:
 
   # Allow labwc main repo to trigger the action
   repository_dispatch:
