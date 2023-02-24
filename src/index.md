@@ -1,5 +1,3 @@
-This is a test
-
 Labwc is a [wlroots]-based window-stacking compositor for [wayland], inspired by
 [openbox].
 
